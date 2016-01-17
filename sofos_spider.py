@@ -15,9 +15,7 @@ class sofosSpider(scrapy.Spider):
     ]   
     
     def parse(self, response):
-        #kk = re.compile('(?:<br>|\s)*(.*?)(?:<br>|</div>)*$')
         dicti = re.compile(r'(?P<concepto>.*?):(?:<br>|\s)*(?P<definicion>.*?)(?:<br>|</div>)*$')
-        
         for autor in response.xpath('//b[@class="postauthor"]'):
             item = sofosItems() 
             item['autor'] = autor.xpath('text()').extract()
