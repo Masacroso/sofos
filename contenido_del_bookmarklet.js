@@ -3,7 +3,7 @@
 
 if (!($ = window.jQuery)) { // typeof jQuery=='undefined' works too
     script = document.createElement( 'script' );
-   script.src = 'http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js'; 
+    script.src = 'http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js'; 
     script.onload=releasetheKraken;
     document.body.appendChild(script);
 } 
@@ -12,13 +12,13 @@ else {
 }
  
 function releasetheKraken() {
-     var bb = document.createElement('link');
-   bb.type = 'text/css';
-  	bb.href = 'https://alojamiento/bunga.min.css';
-  bb.rel = 'stylesheet'
-  document.body.appendChild(bb);
+    var bb = document.createElement('link');
+    bb.type = 'text/css';
+    bb.href = 'https://alojamiento/bunga.min.css';
+    bb.rel = 'stylesheet'
+    document.body.appendChild(bb);
  
- var aa = document.createElement('script');
-  aa.src = 'https://alojamiento/sofos_tooltip.min.js';
-  document.body.appendChild(aa);
+    var aa = document.createElement('script');
+    aa.src = 'https://alojamiento/sofos_tooltip.min.js';
+    document.body.appendChild(aa);
 }
