@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 # Para utilizarla debes meter esta araña en un template de scrapy y definir un item sofosItem()
-# o modificar este códgio (realmente no es necesario usar ningún item).
+# o modificar este código (realmente no es necesario usar ningún item).
 
 import scrapy,re,json
 from tutorial_scrapy.items import sofosItems
