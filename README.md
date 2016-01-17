@@ -2,7 +2,7 @@
 
 Esta es una colección de archivos para crear tooltips de diccionarios de usuarios para el foro _sofosagora.net_. Dispone básicamente de tres scripts y un pequeño archivo de estilo CSS:
 
-1. Una araña muy simple de [scrapy](http://scrapy.org/) (que funciona sólo bajo python 2, ojo) que recorre unos determinados hilos donde los usuarios dejan sus conceptos y definiciones con una simple sintaxis. La araña crea un fichero JSON el cual luego se puede alojar el dropbox para que sea de acceso público y directo para el uso del bookmarklet.
+1. Una araña muy simple de [scrapy](http://scrapy.org/) (que funciona sólo bajo python 2, ojo) que recorre unos determinados hilos donde los usuarios dejan sus conceptos y definiciones con una simple sintaxis. La araña crea un fichero JSON (el cual luego se puede alojar en dropbox para que sea de acceso público y directo para el uso del bookmarklet).
 2. Un javascript que utiliza la librería jQuery para crear tooltips con las definiciones de los usuarios contenidas en el JSON sobre las palabras de los posts de estos usuarios.
 3. Un pequeño bookmarklet (un pequeño código javascript dentro de la dirección de un marcador de páginas web) que llama al javascript de los tooltips, a jQuery si fuese necesario y al archivo de estilos.
 4. Un pequeño archivo de estilos para los tooltips.
