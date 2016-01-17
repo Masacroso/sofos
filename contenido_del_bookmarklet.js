@@ -1,5 +1,5 @@
-//Este código debe ir minificado y dentro de una función anónima dentro del marcador de una página web.
-// URL del bookmark: javascript:(function(){AQUÍ VA EL CÓDIGO MINIFICADO DE ESTE ARCHIVO})();
+// Este código debe ir minificado y dentro de una función anónima dentro de la dirección del marcador de una página web.
+// javascript:(function(){AQUÍ VA EL CÓDIGO MINIFICADO DE ESTE ARCHIVO})();
 
 if (!($ = window.jQuery)) { // typeof jQuery=='undefined' works too
     script = document.createElement( 'script' );
