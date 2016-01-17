@@ -8,3 +8,5 @@ Esta es una colección de archivos para crear tooltips de diccionarios de usuari
 4. Un pequeño archivo de estilos para los tooltips. También alojado en dropbox.
 
 Cuando se lanza el bookmarklet el script hace un marcado de las palabras, según el autor, si están presentes en su diccionario y les añade un tooltip con las definiciones.
+
+De momento el script funciona en Firefox Y Chrome. No estoy seguro de si funciona en IE o cómo hacerlo funcionar debido al diferente manejo, en cuanto a seguridad, de los marcadores con scripts (de los bookmarklets).
