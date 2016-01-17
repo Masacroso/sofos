@@ -1,4 +1,4 @@
-//Este código debe ir minificado y dentro de una función anónima dentro de un bookmark:
+//Este código debe ir minificado y dentro de una función anónima dentro del marcador de una página web.
 // URL del bookmark: javascript:(function(){AQUÍ VA EL CÓDIGO MINIFICADO DE ESTE ARCHIVO})();
 
 if (!($ = window.jQuery)) { // typeof jQuery=='undefined' works too
