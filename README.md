@@ -9,6 +9,6 @@ Esta es una colección de archivos para crear tooltips de diccionarios de usuari
 
 Cuando se lanza el bookmarklet el script hace un marcado de las palabras, según el autor, si están presentes en su diccionario y les añade un tooltip con las definiciones.
 
-Los archivos se pueden alojar el dropbox y [con una pequeña modificación de la dirección de dropbox](http://techapple.net/2014/04/trick-obtain-direct-download-links-dropbox-files-dropbox-direct-link-maker-tool-cloudlinker/) ser accedidos de manera directa.
+Los archivos se pueden alojar en dropbox y [con una pequeña modificación de la dirección](http://techapple.net/2014/04/trick-obtain-direct-download-links-dropbox-files-dropbox-direct-link-maker-tool-cloudlinker/) ser accedidos de manera directa.
 
 De momento el script funciona en Firefox y Chrome. No estoy seguro de si funciona en IE o cómo hacerlo funcionar debido al diferente manejo, en cuanto a seguridad, de los marcadores con scripts (de los bookmarklets).
