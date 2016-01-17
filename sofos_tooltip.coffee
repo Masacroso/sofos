@@ -45,7 +45,7 @@ jj ->
 
   jj.ajax({
     crossOrigin: true #Fundamental
-    url: "https://alojamiento/sofos_buba.json" # Utilizo una dirección de dropbox modificada como alojamiento
+    url: "https://alojamiento/sofos_buba.json"
     datatype: "json"
     success: (data) ->
       primera jj.parseJSON(data)
