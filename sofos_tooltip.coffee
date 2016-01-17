@@ -9,7 +9,7 @@ jj ->
   escapada = (cadena)->
     cadena.replace(/([.?*+^$[\]\\(){}|-])/g, "\\$1")
 
-  # La función sobre el pjson empieza aquí
+  # La función sobre el json parseado (pjson) empieza aquí
   primera = (pjson) ->
     contador = 0
 
