@@ -9,10 +9,11 @@ jj ->
   escapada = (cadena)->
     cadena.replace(/([.?*+^$[\]\\(){}|-])/g, "\\$1")
 
-  # La primera función sobre el pjson
+  # La función sobre el pjson empieza aquí
   primera = (pjson) ->
     contador = 0
 
+    # La estructura html es diferente según el estilo que se use del foro
     if jj("head").children("link[href*='subsilver2']").length > 0
       dirAutor = jj(".postauthor")
       nomAutor = dirAutor
@@ -43,8 +44,8 @@ jj ->
           contador += 1
 
   jj.ajax({
-    crossOrigin: true
-    url: "https://dl.dropboxusercontent.com/s/yk7qv7opvzbl8y5/sofos_buba.json"
+    crossOrigin: true #Fundamental
+    url: "https://alojamiento/sofos_buba.json" # Utilizo una dirección de dropbox modificada como alojamiento
     datatype: "json"
     success: (data) ->
       primera jj.parseJSON(data)
