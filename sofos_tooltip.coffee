@@ -1,6 +1,7 @@
 jj = jQuery.noConflict()
 root = exports ? this
 jj ->
+  # Ésta es la función ligada al evento 'onclick' de las palabras marcadas
   root.mongui = (xx) ->
     jj('.tultipo.' + xx + '').slideToggle("200")
     jj('.concepto.' + xx + '').toggleClass("inversion")
