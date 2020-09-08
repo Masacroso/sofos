@@ -50,3 +50,4 @@ jj ->
     datatype: "json"
     success: (data) ->
       primera jj.parseJSON(data)
+  })
